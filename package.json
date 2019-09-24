@@ -1,0 +1,44 @@
+{
+  "name": "carcamlanding",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ac-react-simple-image-slider": "^0.0.9",
+    "react": "^16.9.0",
+    "react-animated-slider": "^1.1.4",
+    "react-compound-slider": "^2.3.0",
+    "react-compound-timer": "^1.1.5",
+    "react-countdown-now": "^2.1.1",
+    "react-dom": "^16.9.0",
+    "react-form-validator-core": "^0.6.4",
+    "react-gradient": "^1.0.2",
+    "react-image-gallery": "^0.9.1",
+    "react-scripts": "3.1.2",
+    "react-text": "^3.2.1",
+    "react-translate": "^7.0.1",
+    "sendemail": "^3.4.0",
+    "validator": "^11.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "homepage": "https://www.carcam.cm"
+  }
+}
