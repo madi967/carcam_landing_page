@@ -5,6 +5,9 @@ import { Gradient } from 'react-gradient';
 import Texte from './components/Texte';
 import  Login from './components/Login';
 import Timer from './components/Timer_';
+import { Widget,addResponseMessage , addLinkSnippet, addUserMessage  } from 'react-chat-widget';
+import 'react-chat-widget/lib/styles.css';
+import logo from './components/images/avatar.png';
  
 const gradients = [
     ['#00f', '#6600a1'],
@@ -68,6 +71,14 @@ class App extends Component {
     }
       
   }
+ handleNewUserMessage = (newMessage) => {
+    console.log(`New message incoming! ${newMessage}`);
+    // Now send the message throught the backend API
+    //addResponseMessage(response);
+  }
+  componentDidMount() {
+    addResponseMessage("Bienvénu à la méssagerie d'assistance de carcam, nous sommes ouvert à tous vos préocupations");
+  }
   render(){
     return (
       <div className="App">
@@ -89,6 +100,13 @@ class App extends Component {
         </header>
         </Gradient>
         <body>
+          <Widget handleNewUserMessage={this.handleNewUserMessage}
+                profileAvatar={logo}
+                title="carcam"
+                subtitle="Une nouvelle vision de l'autoparge"
+                senderPlaceHolder="Ecrire un message" 
+               /* handleQuickButtonClicked fonction utiliser pour savoir quand	l'utilisateur clique sur le bouton fermer la conversation*/
+               />
           <div className="image">
             <Image_/>
           </div>
