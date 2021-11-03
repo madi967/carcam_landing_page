@@ -17,7 +17,7 @@
     "react-text": "^3.2.1",
     "react-translate": "^7.0.1",
     "sendemail": "^3.4.0",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
