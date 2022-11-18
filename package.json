@@ -13,7 +13,7 @@
     "react-form-validator-core": "^0.6.4",
     "react-gradient": "^1.0.2",
     "react-image-gallery": "^0.9.1",
-    "react-scripts": "3.1.2",
+    "react-scripts": "5.0.1",
     "react-text": "^3.2.1",
     "react-translate": "^7.0.1",
     "sendemail": "^3.4.0",
