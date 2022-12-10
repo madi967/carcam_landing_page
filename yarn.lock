@@ -8219,10 +8219,15 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qs@6.5.2, qs@~6.5.2:
+qs@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+
+qs@~6.5.2:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
@@ -8293,6 +8298,13 @@ rc@^1.2.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
+
+react-animated-slider@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/react-animated-slider/-/react-animated-slider-1.1.4.tgz#01c63cb6cc85fa0452978f72cf579d7868b8b5a9"
+  integrity sha512-tXPOcokV8OUzZ4yBesAa+O8fmkA3ioLLAmYzdaVZHX2aS+9DnUHJRlNNSXdNfvqCFRHqfdq+dviU4Dmk4xirfw==
+  dependencies:
+    react "^16.4.1"
 
 react-app-polyfill@^1.0.3:
   version "1.0.3"
@@ -8490,6 +8502,15 @@ react-translate@^7.0.1:
   integrity sha512-YHKsjj3+3qy6i/lY463I/B1BY5iNc57In/B6pKNiqVYps95mZNTeFIpJAS8M6AmfwLxuHpmrNdI0pvde6jA7Ug==
   dependencies:
     invariant "^2.1.2"
+
+react@^16.4.1:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 react@^16.8.6, react@^16.9.0:
   version "16.9.0"
